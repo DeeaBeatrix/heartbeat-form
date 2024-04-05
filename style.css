@@ -129,14 +129,16 @@
     flex-direction: row; */
     justify-content: space-between;
     margin-left: 0;
-    width: 100%;
     margin-top: 4px;
+    max-width: 80px;
 }
 
 .text-card-container, .email-text, .location-text, .linkedin-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-weight: bold;
+    align-items: start;
 }
 
 .first-last-name {
@@ -145,6 +147,10 @@
 
 .first-name-text, .last-name-text p {
     margin-right: 5px;
+}
+
+.email-text {
+    align-items: start;
 }
 
 .bio-text {
