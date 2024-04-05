@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.first-image {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.form-container, h4 {
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-properties {
+   align-items: center;
+   color: rgb(133, 131, 131);
+   font-weight: bold;
+}
+
+.form-properties .email input {
+    border: none;
+}
+
+.form-properties input {
+    border-radius: 4px;
+    border-color: rgb(241, 236, 236);
+    border-width: 1px;
+    padding: 8px;
+}
+
+.form-properties .location p {
+    margin-top: 4px;
+    font-weight: normal;
+    display: block;
+}
+
+.form-properties .location input {
+    width: 400px;
+}
+
+.form-properties .linkedin input {
+    width: 400px;
+}
+
+.email, .location, .linkedin {
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.paragraph-container-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    gap: 28px;
+}
+
+.paragraph-container-one div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.paragraph-container-one label {
+    margin-bottom: 5px;
+}
+
+.container-second {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.4);
+    height: auto;
+    width: 420px;
+    position: absolute;
+    top: 180px;
+    z-index: 1;
+    background-color: white;
+}
+
+.line-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.separator {
+  margin-left: 20px;
+  width: 90%;
+  border-top: 1px solid #c9c7c7;
+}
+
+.text-card-container {
+    padding: 16px;
+    line-height: 28px;
+}
+
+.little-star {
+    padding: 16px;
+}
+
+.line-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.text-card-container, .email-text, .first-name-text, .last-name-text, .location-text, .linkedin-text {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bio-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+}
+
+.bio {
+    margin-top: 1px;
+}
+
+.last-image {
+    text-align: end;
+    margin-top: 220px;
+    margin-left: 320px;
+}
+
+.last-image img {
+    display: block;
+    height: 30%;
+    position: relative;
+    max-width: 100%;
+    opacity: 0.5;
+    overflow: hidden;
+    /* right: 320px;
+    top: 390px; */
+    z-index: -1;
+
+}
